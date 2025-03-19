@@ -1,0 +1,56 @@
+<<<<<<< HEAD
+# Игнорировать файл .env и другие файлы с чувствительными данными
+.env
+.env.local
+.env.development
+.env.production
+
+# Игнорировать зависимости
+node_modules/
+
+# Игнорировать сборочные файлы
+dist/
+build/
+
+# Игнорировать логи
+=======
+<<<<<<< Updated upstream
+# Logs
+logs
+>>>>>>> 43a882f4198a9a9d4be2860d039a5f570e8eecdb
+*.log
+npm-debug.log*
+
+# Игнорировать файлы IDE
+.vscode/
+.idea/
+
+# Игнорировать временные файлы
+*.tmp
+*.temp
+
+# Игнорировать файлы кэша
+.cache/
+
+# Игнорировать файлы сборки Vite (если используете Vite)
+.vite/
+
+# Игнорировать файлы тестового покрытия
+coverage/
+
+# Игнорировать macOS файлы
+.DS_Store
+<<<<<<< HEAD
+
+# Игнорировать файлы конфигурации npm
+.npmrc
+=======
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+=======
+node_modules
+>>>>>>> Stashed changes
+>>>>>>> 43a882f4198a9a9d4be2860d039a5f570e8eecdb

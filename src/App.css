@@ -1,0 +1,193 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5f5f5; /* Фоновый цвет для наглядности */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1400px;
+}
+
+/* src/App.css */
+.MuiDialog-paper {
+  border-radius: 12px !important;
+  padding: 15px;
+  background: #fff;
+}
+
+.MuiDialogTitle-root {
+  font-size: 1.5rem !important;
+  color: #1976d2 !important;
+  text-align: center !important;
+  position: relative;
+}
+
+.MuiDialogContent-root {
+  padding: 10px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.MuiButton-root {
+  margin: 0 5px !important;
+}
+
+.MuiTextField-root {
+  margin-bottom: 10px !important;
+}
+
+.MuiOutlinedInput-root {
+  border-radius: 5px !important;
+  background: #f5f5f5 !important;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border-color: #ccc !important;
+}
+
+.MuiOutlinedInput-input {
+  padding: 10px 14px !important;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.button-submit {
+  background: #1976d2 !important;
+  color: #fff !important;
+  padding: 10px !important;
+  border-radius: 5px !important;
+  text-transform: none !important;
+  font-size: 1rem !important;
+  transition: background 0.3s !important;
+}
+
+.button-submit:hover {
+  background: #1565c0 !important;
+}
+
+.p {
+  font-size: 0.9rem;
+  text-align: center;
+  color: #666;
+  margin: 5px 0;
+}
+
+.p.line {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #999;
+}
+
+.p.line::before,
+.p.line::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 40%;
+  height: 1px;
+  background: #ccc;
+}
+
+.p.line::before {
+  left: 0;
+}
+
+.p.line::after {
+  right: 0;
+}
+
+.span {
+  color: #1976d2;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.span:hover {
+  text-decoration: underline;
+}
+
+.btn.google {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #fff !important;
+  border: 1px solid #ccc !important;
+  border-radius: 5px !important;
+  padding: 8px 20px !important;
+  text-transform: none !important;
+  font-size: 0.9rem !important;
+  color: #333 !important;
+  transition: background 0.3s !important;
+}
+
+.btn.google:hover {
+  background: #f1f1f1 !important;
+}
+
+/* Стили для главной страницы */
+.welcome-section {
+  text-align: center;
+  padding: 20px;
+}
+
+
+/* src/App.css */
+
+/* Анимация для градиента */
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Анимация для подъёма пузырьков */
+@keyframes float {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100vh);
+    opacity: 0;
+  }
+}
+
+/* Анимация для лёгкого покачивания */
+@keyframes sway {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(20px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
