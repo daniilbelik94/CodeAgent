@@ -1,8 +1,0 @@
-MONGO_URI=mongodb://localhost:27017/learning-platform
-JWT_SECRET=656cb1bfa4959d31cfb61717f8064baa1c49144b845764bea9310f5fd0c8bc52
-PORT=5000
-GOOGLE_CLIENT_ID=557875127451-n1odst96g6c8plvmcjmaure4p4dgndr1.apps.googleusercontent.com
-GOOGLE_CLIENT_SECRET=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
-GOOGLE_REDIRECT_URI=http://localhost:5000/auth/google/callback
-EMAIL_USER=dbelik664@gmail.com
-GOOGLE_REFRESH_TOKEN=1//093yHeAaExwDTCgYIARAAGAkSNwF-L9IrgpdIisMwChi0aJIIUS5Js4caA0tVkTYp-jI5zx0tIKnmxN_Ukc9soYR_Y9bbIUw9MYA
